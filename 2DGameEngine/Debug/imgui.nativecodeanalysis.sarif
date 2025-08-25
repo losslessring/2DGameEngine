@@ -1,0 +1,2558 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiInputSource' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 1371,
+                  "startColumn": 9,
+                  "endLine": 1371,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiNavLayer' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 1387,
+                  "startColumn": 9,
+                  "endLine": 1387,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiNavForward' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 1399,
+                  "startColumn": 9,
+                  "endLine": 1399,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiLogType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 1453,
+                  "startColumn": 9,
+                  "endLine": 1453,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiInputReadMode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 1918,
+                  "startColumn": 29,
+                  "endLine": 1918,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?IsNavInputTest@ImGui@@YA_NHW4ImGuiInputReadMode@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'ImGuiColorMod::Col' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 811,
+                  "startColumn": 1,
+                  "endLine": 811,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiColorMod@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "ImGuiColorMod::Col"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 3515,
+                  "startColumn": 44,
+                  "endLine": 3515,
+                  "endColumn": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?UpdateMouseInputs@ImGui@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiCol_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 3938,
+                  "startColumn": 46,
+                  "endLine": 3938,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?UpdateDebugToolItemPicker@ImGui@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 'window' contains the same NULL value as 'hovered_window' did. See line 4368 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 4394,
+                  "startColumn": 13,
+                  "endLine": 4394,
+                  "endColumn": 118
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?FindHoveredWindow@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4356,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4358,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4359,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4360,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4363,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4364,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4365,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4365,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4367,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4368,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4370,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4374,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4375,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4378,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4379,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4384,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4392,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4393,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4394,
+                            "startColumn": 59
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4396,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4365,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4365,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4367,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4368,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4370,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4374,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4375,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4378,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4379,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4384,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4392,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "'window' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4393,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4394,
+                            "startColumn": 59
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 4394,
+                            "startColumn": 59
+                          }
+                        },
+                        "message": {
+                          "text": "'window' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'ImGuiSizeCallbackData::UserData' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.h"
+                },
+                "region": {
+                  "startLine": 1693,
+                  "startColumn": 1,
+                  "endLine": 1693,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiSizeCallbackData@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "ImGuiSizeCallbackData::UserData"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiMouseCursor_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 5164,
+                  "startColumn": 30,
+                  "endLine": 5164,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?UpdateWindowManualResize@ImGui@@YA_NPAUImGuiWindow@@ABUImVec2@@PAHHQAIABUImRect@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImDrawCornerFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 5328,
+                  "startColumn": 150,
+                  "endLine": 5328,
+                  "endColumn": 213
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?RenderWindowDecorations@ImGui@@YAXPAUImGuiWindow@@ABUImRect@@_NHQBIM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiPopupPositionPolicy' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 8041,
+                  "startColumn": 15,
+                  "endLine": 8041,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?FindBestWindowPosForPopupEx@ImGui@@YA?AUImVec2@@ABU2@0PAHABUImRect@@2W4ImGuiPopupPositionPolicy@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiDir_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 8217,
+                  "startColumn": 17,
+                  "endLine": 8217,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ImGetDirQuadrantFromDelta@@YAHMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 10516,
+                  "startColumn": 71,
+                  "endLine": 10516,
+                  "endColumn": 97
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?NodeColumns@Funcs@?1??ShowMetricsWindow@ImGui@@YAXPA_N@Z@SAXPBUImGuiColumns@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiTreeNodeFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 10546,
+                  "startColumn": 51,
+                  "endLine": 10546,
+                  "endColumn": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?NodeWindow@Funcs@?1??ShowMetricsWindow@ImGui@@YAXPA_N@Z@SAXPAUImGuiWindow@@PBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30159.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x008CD1C0 -il D:\\Users\\pavel\\AppData\\Local\\Temp\\_CL_3af32f71ast -typedil -f libs\\imgui\\imgui.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930159 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -FoDebug\\imgui.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\projects\\programming\\2DGameEngine\\2DGameEngine -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\projects\\programming\\2DGameEngine\\2DGameEngine\\libs -I C:\\SDL2\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\projects\\programming\\2DGameEngine\\2DGameEngine\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I D:\\projects\\programming\\2DGameEngine\\2DGameEngine\\Include\\um -I D:\\projects\\programming\\2DGameEngine\\2DGameEngine\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/SDL2/include/SDL_stdinc.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "13a1af46f81e67b38c4380d27efa066c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/SDL2/include/SDL_rect.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0f5d610ff61bcf04cb3f8043e0c812f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/src/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "81c645bff6044dcb957bf2af6f640d13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl.h"
+          },
+          "hashes": {
+            "md5": "f2c78fcba3f3691b83cc3461d5d29406"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_main.h"
+          },
+          "hashes": {
+            "md5": "afdbda186156f040faefc1ae5f68bfad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_config.h"
+          },
+          "hashes": {
+            "md5": "9fe321d134dbdff21d59775c59bbd0f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_platform.h"
+          },
+          "hashes": {
+            "md5": "daadbad14a5a994fcf299ea3473bd9b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/begin_code.h"
+          },
+          "hashes": {
+            "md5": "fd97cfcb6428ac818c214ddae0189f9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/close_code.h"
+          },
+          "hashes": {
+            "md5": "a26b8517c6ffe500410236eaac87b93a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_assert.h"
+          },
+          "hashes": {
+            "md5": "68581712e3002fd4485f3b500223c867"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "md5": "82dc5a0039b4b65dd8f7735cbe91b833"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_audio.h"
+          },
+          "hashes": {
+            "md5": "483da5a9134d18332cff2fca8618660d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_error.h"
+          },
+          "hashes": {
+            "md5": "6a9b036c3041b01645de29dca5bbaa4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_endian.h"
+          },
+          "hashes": {
+            "md5": "53e31de3307792df3022709a24ecabf5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "md5": "8c24782ea8a347f9fec584adc1171302"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_thread.h"
+          },
+          "hashes": {
+            "md5": "6e496d66fbe597ffd8e1a91fb465dff3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "md5": "7616189c71bff2bbf1ee908e927c1d1a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "md5": "d9ad479dcd3a62f3a93c29782ad6142b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "md5": "b386c111a2a5f7f6323727e02b35ba5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_events.h"
+          },
+          "hashes": {
+            "md5": "db2a600684ae4f1f2e9a5f35f4947ec6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_video.h"
+          },
+          "hashes": {
+            "md5": "f9bedf1b675e2f34e381681763804859"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "md5": "627c07ce6f4f6283a5d5ab866e7b2be5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_surface.h"
+          },
+          "hashes": {
+            "md5": "32f6e3f9f9671deac0b8525e2d2707a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "md5": "9f669f794d1edaa13e5716949042767e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "md5": "5d31d71379cf4c5e3651e14dd14fb28e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "md5": "d8417741e78d10022af5b7a640d57bb5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "md5": "ac1050d9a662e048d5be912b8a845eb4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "md5": "21305b1f7839ce06b76a131894b12539"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "md5": "b116cf6b2cf0f3e827645a3c3f5bce35"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "md5": "870bb0f2ef322086fdb409487eee5bc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_quit.h"
+          },
+          "hashes": {
+            "md5": "4e03d1dc5a31794bf999dfd68f837628"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "md5": "e1e05cf8014469b6b85e517bceccc206"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_touch.h"
+          },
+          "hashes": {
+            "md5": "ddfe8f37070da7c6e35d6447cfeef77c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "md5": "32a57ba496923362039bc053707f4ba4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "md5": "263d3c655d31a9c253ac70bc2a473565"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_hints.h"
+          },
+          "hashes": {
+            "md5": "c3234bc9d0036866c375ca8321658244"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "md5": "3c938a938b768e38cf003cfab384af93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_log.h"
+          },
+          "hashes": {
+            "md5": "7a00df013729823205665f8a4e8fc892"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "md5": "fa3310371657ed78aeae08ba510d16f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_metal.h"
+          },
+          "hashes": {
+            "md5": "6d8f237e4817d66cac20257748cc2573"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_power.h"
+          },
+          "hashes": {
+            "md5": "4cc4f1ee5395a39b926f809fbaccd698"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_render.h"
+          },
+          "hashes": {
+            "md5": "33a466fc1b2bfa8648a93099b8af0874"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_sensor.h"
+          },
+          "hashes": {
+            "md5": "09c71034548323d170541f00352b3867"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_shape.h"
+          },
+          "hashes": {
+            "md5": "3061096cc46a8bc80dcea26a303f7e61"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_system.h"
+          },
+          "hashes": {
+            "md5": "0148bc4cc90699389522d8baac7d827a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_timer.h"
+          },
+          "hashes": {
+            "md5": "53f9d522af76ed8fedea6eaf8a496f12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_version.h"
+          },
+          "hashes": {
+            "md5": "8b80d9de73ef268e5e66f46a4c00e680"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_image.h"
+          },
+          "hashes": {
+            "md5": "3ad4ced493bf6ee900936905e0ebd218"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_ttf.h"
+          },
+          "hashes": {
+            "md5": "e5ee4fb8ae4c5f3aa12952c3fe94c965"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sdl2/include/sdl_mixer.h"
+          },
+          "hashes": {
+            "md5": "5ab719a61a7641f6f65f303845dfae9c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/glm.hpp"
+          },
+          "hashes": {
+            "md5": "df2e406dd0a7a848bce88c611970e35c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/_fixes.hpp"
+          },
+          "hashes": {
+            "md5": "4dfdbc8d1ac5131c9e96eabec8c52c50"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/setup.hpp"
+          },
+          "hashes": {
+            "md5": "47527554e91947cf1ac1fe6b459b7daa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/simd/platform.h"
+          },
+          "hashes": {
+            "md5": "497379983f73e6517fc4e5fdd3ec445b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/fwd.hpp"
+          },
+          "hashes": {
+            "md5": "c470de23e439d720d019e6af0ff786c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/qualifier.hpp"
+          },
+          "hashes": {
+            "md5": "b0815c6df7156bb3ad221cd22e21ab73"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/vec2.hpp"
+          },
+          "hashes": {
+            "md5": "20ee9ed2ac5ce1d45e22ef41eba5ee2e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_bool2.hpp"
+          },
+          "hashes": {
+            "md5": "6233764c7af33f5407dfe627bb077421"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_vec2.hpp"
+          },
+          "hashes": {
+            "md5": "b1de731e1da2a49d6dc7429865d8c4ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_vec2.inl"
+          },
+          "hashes": {
+            "md5": "f7b0cd4ffb624055246e07606190946a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/compute_vector_relational.hpp"
+          },
+          "hashes": {
+            "md5": "5965f9009e4c65de014c5a33b0cefc64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_bool2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "1ad7346d197abecfb1a87ee770cc3b58"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_float2.hpp"
+          },
+          "hashes": {
+            "md5": "90760022c36019ffa0b8105f37992ef5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_float2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "f757b628bc85854ba161e1b6cc02793b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_double2.hpp"
+          },
+          "hashes": {
+            "md5": "f86b8daf2c5a15c20adeeda3fdce67f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_double2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "d71ac88bb1afbaca2d279e869680a163"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_int2.hpp"
+          },
+          "hashes": {
+            "md5": "2c56575f4ae8bf26746033653acfbece"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_int2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "4e6d4068ad6fc9ebcc20178dd12aa9f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_uint2.hpp"
+          },
+          "hashes": {
+            "md5": "a800ada5f5b9d08370190ecffc3bf90b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_uint2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "9e3969da71064ccc0339d1c5e99a3872"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/vec3.hpp"
+          },
+          "hashes": {
+            "md5": "8d9882f2836e23e1b5547e664810884a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_bool3.hpp"
+          },
+          "hashes": {
+            "md5": "bb0d506a2753f13dd14b17cbf4c62564"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_vec3.hpp"
+          },
+          "hashes": {
+            "md5": "c81f278b5c51e8cd27f7ff7507244ed6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_vec3.inl"
+          },
+          "hashes": {
+            "md5": "35704351ff21d31e8d73f57e4e87b783"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_bool3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "acdc951f407561b15b5009e6ae069397"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_float3.hpp"
+          },
+          "hashes": {
+            "md5": "1d033eafa37c5d1cb2ac0e3fd4b5ff69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_float3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "356b428a0d7aa0da870de95ff21411a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_double3.hpp"
+          },
+          "hashes": {
+            "md5": "ae21cf69460e39e2fdb66eb46070b78a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_double3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "2b59a5720847cfa208f1532896018caf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_int3.hpp"
+          },
+          "hashes": {
+            "md5": "0a2486c77ca78ceb6884822860edc894"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_int3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "48dce308b7f69a4f1a511c8cb7621fd5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_uint3.hpp"
+          },
+          "hashes": {
+            "md5": "2121de52b2f29fe3c015f5fadb1c9262"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_uint3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "4fde21d1e7a0039eb8fc89524fffd4ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/vec4.hpp"
+          },
+          "hashes": {
+            "md5": "94da5f1f7562886de81d3c257d951daf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_bool4.hpp"
+          },
+          "hashes": {
+            "md5": "60694c6725fb5ebf4a8572859a33c379"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_vec4.hpp"
+          },
+          "hashes": {
+            "md5": "98429c713683f736db203cd56b2e128b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_vec4.inl"
+          },
+          "hashes": {
+            "md5": "b3ea26826b640b6b76b9cd9dbe5476a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_bool4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "9d4c3c4a0324b6a040b07f57afd66b7b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_float4.hpp"
+          },
+          "hashes": {
+            "md5": "c334b6e799decf0d910ae457711745f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_float4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "c1bd478a2d9e4a0ecf5c38d1c7a5b320"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_double4.hpp"
+          },
+          "hashes": {
+            "md5": "861a5b748198f51b2d7d864334725d6f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_double4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "1459fe6169dcdbce83259bcae91cac6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_int4.hpp"
+          },
+          "hashes": {
+            "md5": "3e09a9712aaec6337213ee24c4ed7917"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_int4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "60d59ce15ab55d53301a7dc701f8da7f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_uint4.hpp"
+          },
+          "hashes": {
+            "md5": "c70ef59925c1c5bce8e66ce6e0818cc9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/vector_uint4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "ec6b0b0e87ad5006527bc8079b0f78df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/mat2x2.hpp"
+          },
+          "hashes": {
+            "md5": "cce2efe7aa13a7680c431ba92213cdc5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double2x2.hpp"
+          },
+          "hashes": {
+            "md5": "132a56fc9e79ac70bf41a734b3946cf6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat2x2.hpp"
+          },
+          "hashes": {
+            "md5": "cfdfcf4fd1da8e3b0815df21a526f10f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat2x2.inl"
+          },
+          "hashes": {
+            "md5": "c09ab394570763818c1a30a45cb48408"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/matrix.hpp"
+          },
+          "hashes": {
+            "md5": "cde01830fc644807b85b8f40c49cfe32"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/mat2x3.hpp"
+          },
+          "hashes": {
+            "md5": "ba553c479ad39f24ae6dbc52e00619a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double2x3.hpp"
+          },
+          "hashes": {
+            "md5": "acd5b730e35792131eeb42ac54f9f03b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat2x3.hpp"
+          },
+          "hashes": {
+            "md5": "24a358f91f38bde17fad5d0066c67747"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat2x3.inl"
+          },
+          "hashes": {
+            "md5": "b328b50d3cbaffc75889df5b8762f22a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double2x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "4703058bc61056b93633df43405410b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float2x3.hpp"
+          },
+          "hashes": {
+            "md5": "65fe704f6e6548317bfd3b855eb2ec21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float2x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "f9223a380be7ec988eccca339a3a559a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/mat2x4.hpp"
+          },
+          "hashes": {
+            "md5": "0456c5df441e4dc091fe1196d9f08a18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double2x4.hpp"
+          },
+          "hashes": {
+            "md5": "e0dbc040d052ec6b80f7e5da77677045"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat2x4.hpp"
+          },
+          "hashes": {
+            "md5": "8511bf516701d7e0d9b93364a17350da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat2x4.inl"
+          },
+          "hashes": {
+            "md5": "849c3f5c4ecebc16682d7481213d4a18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double2x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "0a6fdc1a7b7d6c09bb6c4491a545f738"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float2x4.hpp"
+          },
+          "hashes": {
+            "md5": "d91cdef487294da522c9fc2327356e76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float2x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "868cb14afaac053d11c405542cfe3440"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/mat3x2.hpp"
+          },
+          "hashes": {
+            "md5": "08eae964aa236badac332ffbb0755cd2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double3x2.hpp"
+          },
+          "hashes": {
+            "md5": "ff183ed092d1d1442467b03b052750fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat3x2.hpp"
+          },
+          "hashes": {
+            "md5": "5a48c0e4a58c3c9c2abac39f335aa2df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat3x2.inl"
+          },
+          "hashes": {
+            "md5": "5d602458629b125b469b94241c39fac8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double3x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "b7f7e42d61adee966f8bc71778e25249"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float3x2.hpp"
+          },
+          "hashes": {
+            "md5": "73a9484a13877129a4b6ec9f77c7fbf8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float3x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "f75b6448aa0f7fa6bf020f2caa79cf6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/mat3x3.hpp"
+          },
+          "hashes": {
+            "md5": "43a0ac823b3c62f586b52eb0c5ba515f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double3x3.hpp"
+          },
+          "hashes": {
+            "md5": "09044fbcb1e9546e6b13bbc7eb5600ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat3x3.hpp"
+          },
+          "hashes": {
+            "md5": "ce33393d7c9901c941d2e6521be09c9d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat3x3.inl"
+          },
+          "hashes": {
+            "md5": "98f9d701c2947cd4c3fde7f24d56916f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double3x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "8968610e2f7373da2fe58d828b3537c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float3x3.hpp"
+          },
+          "hashes": {
+            "md5": "35239da0a5ba5207a76bd4a357a38df9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float3x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "0c82253ed6e74860f7ca6eb2742c7187"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/mat3x4.hpp"
+          },
+          "hashes": {
+            "md5": "4370d98bf647e5d414d70c112b4a266c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double3x4.hpp"
+          },
+          "hashes": {
+            "md5": "c4ab6078d989aa4daae7823790745d32"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat3x4.hpp"
+          },
+          "hashes": {
+            "md5": "27c5d3cfd61f984787c021b92c80945a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat3x4.inl"
+          },
+          "hashes": {
+            "md5": "9c755cea0405fe04075171da638257ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double3x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "fff09f31e39739d417a4d72ffcf59434"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float3x4.hpp"
+          },
+          "hashes": {
+            "md5": "35c58cb48d28910093d5c9891b52e8c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float3x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "293a3e92cd38a6093be4dce1e9119cb5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/mat4x2.hpp"
+          },
+          "hashes": {
+            "md5": "2047f4410df56a88cc8d820c7d2ce5c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double4x2.hpp"
+          },
+          "hashes": {
+            "md5": "e677f7580e742f65433a976e7a51271f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat4x2.hpp"
+          },
+          "hashes": {
+            "md5": "77b5d34b7cd237450e3ed6f12bdecb67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat4x2.inl"
+          },
+          "hashes": {
+            "md5": "b19a59dd3c1cef0043ae89de5c18a47f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double4x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "d30f3963dbf65d8f404e55a5fca8ab3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float4x2.hpp"
+          },
+          "hashes": {
+            "md5": "730dc195015782460553b45248d9e7fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float4x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "c3fa1e6e33882c39bcbe4d47689e4e6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/mat4x3.hpp"
+          },
+          "hashes": {
+            "md5": "ef1193825139d08fb77e0370324245e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double4x3.hpp"
+          },
+          "hashes": {
+            "md5": "1aa1171942a0f912b243fb8f63c36c06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat4x3.hpp"
+          },
+          "hashes": {
+            "md5": "b6916cda631939a18ff9326bfacba15c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat4x3.inl"
+          },
+          "hashes": {
+            "md5": "9fc133baf921379f70eee7c9df126041"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double4x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "a11d1b7c2b4cea3789533c8ac8e82ef3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float4x3.hpp"
+          },
+          "hashes": {
+            "md5": "f13fe326b5e97b93af916d0652ece102"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float4x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "d5d0c8f8bb4323707e547c5a6b44ee61"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/mat4x4.hpp"
+          },
+          "hashes": {
+            "md5": "7318e350782b961e2e6d108c766e049a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double4x4.hpp"
+          },
+          "hashes": {
+            "md5": "685be40a13edab9d9c32bfc184ec4460"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat4x4.hpp"
+          },
+          "hashes": {
+            "md5": "eb94ef85f6e373764eca9b95c653e0b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_mat4x4.inl"
+          },
+          "hashes": {
+            "md5": "cf968d14c3aafe75c845f7f8eda7484a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double4x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "527844e1b5d58c2c9c2edfa2b612d0d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float4x4.hpp"
+          },
+          "hashes": {
+            "md5": "7fa5473ae699ce2a2965e916945d64cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float4x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "deb2e0a902af84ab5cae6e44544668e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/func_matrix.inl"
+          },
+          "hashes": {
+            "md5": "865f8ef10f9a202b03569d7a935691a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/geometric.hpp"
+          },
+          "hashes": {
+            "md5": "a873ee0ad68ecec734eec658643bad6f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/func_geometric.inl"
+          },
+          "hashes": {
+            "md5": "3cc69ead3c1cb9d55d4edc270732cab6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/exponential.hpp"
+          },
+          "hashes": {
+            "md5": "8a4ede02e2f962a655270f28ee17e7f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_vec1.hpp"
+          },
+          "hashes": {
+            "md5": "175fc1ed276b4ae4e5c7b8bfadf5e39d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_vec1.inl"
+          },
+          "hashes": {
+            "md5": "5f29e468e88aa94cdeccfe9f74949e1b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/func_exponential.inl"
+          },
+          "hashes": {
+            "md5": "df74ff914cd6298d7d9e2128b568ec43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/vector_relational.hpp"
+          },
+          "hashes": {
+            "md5": "e8f062f6785fe689e03b6ecfe173e497"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/func_vector_relational.inl"
+          },
+          "hashes": {
+            "md5": "dcef9d7968003e1330a2a3e69d5b894d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/_vectorize.hpp"
+          },
+          "hashes": {
+            "md5": "56418912fae02ddb3d7c059f72372ee9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/common.hpp"
+          },
+          "hashes": {
+            "md5": "097f019349b13816d3334c2af2f6f0db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/func_common.inl"
+          },
+          "hashes": {
+            "md5": "ceca51e5e5c78fca5ef7c9ac4bcc39fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/compute_common.hpp"
+          },
+          "hashes": {
+            "md5": "ec9467a0a74ed13b408e9f3068a17eb2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_double2x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "b9e5a90f4ad65d09a3fa5f5eb57a56ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float2x2.hpp"
+          },
+          "hashes": {
+            "md5": "230598a32fabd32131609f57f5538509"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/ext/matrix_float2x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "40562f3159dc49d847b0a54030bab432"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/trigonometric.hpp"
+          },
+          "hashes": {
+            "md5": "1eb5ead97a0974f45f8293e84bd82a21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/func_trigonometric.inl"
+          },
+          "hashes": {
+            "md5": "852c47313491a11e8cc250a9ac7a8edd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/packing.hpp"
+          },
+          "hashes": {
+            "md5": "3e5497e128c7deda213ed8765e28842b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/func_packing.inl"
+          },
+          "hashes": {
+            "md5": "f2fef7f9ea746325f34d0b56c987e8dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_half.hpp"
+          },
+          "hashes": {
+            "md5": "e93438412aa8d6097c9443598725db6a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/type_half.inl"
+          },
+          "hashes": {
+            "md5": "0be79e1f7d340b1ffef1f0bf220292f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/integer.hpp"
+          },
+          "hashes": {
+            "md5": "d7df89c8e3ef7ce9f1402b3680c3c69e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/glm/detail/func_integer.inl"
+          },
+          "hashes": {
+            "md5": "a45776acbaa973c29b379a73dcda6589"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/src/game.h"
+          },
+          "hashes": {
+            "md5": "22b9454e81f3b67971aafd7bb909c58f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui_internal.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "36c7d93e6593f69681c84459a200d030"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui_widgets.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c7048143c5163e45f72375af82ee8ad1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/imgui/imgui.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4c9b54da4ccf126f528894c0c9926eeb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/imgui/imconfig.h"
+          },
+          "hashes": {
+            "md5": "63e5158b1b67d405576f7b855bc9eb85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/imgui/imstb_textedit.h"
+          },
+          "hashes": {
+            "md5": "402f60752d999a5b9b340cb0b84ebe1a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui_sdl.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "27d1e5bec172b66bdd27fcd9c55e97f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/imgui/imgui_sdl.h"
+          },
+          "hashes": {
+            "md5": "4d130ccae2a863e6d091376023f2e7d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imstb_truetype.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3e93ca95bbc8f419a1ec83c2079574ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui_draw.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "f79fc1eb3227a4f59d984126b9902176"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/projects/programming/2dgameengine/2dgameengine/libs/imgui/imstb_rectpack.h"
+          },
+          "hashes": {
+            "md5": "897ce69d190ec38f9e3c08de9fd229de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui_demo.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "85f1a37d742529cf39fd2d56b4176b1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/projects/programming/2DGameEngine/2DGameEngine/libs/imgui/imgui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "2be1d6a0b85b6b7ca0055a59be69c6cd"
+          }
+        }
+      ]
+    }
+  ]
+}

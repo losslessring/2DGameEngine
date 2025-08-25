@@ -1,0 +1,10 @@
+﻿  Game.cpp
+  glm.cpp
+D:\projects\programming\2DGameEngine\2DGameEngine\libs\glm\detail\glm.cpp(5,10): fatal error C1083: Cannot open include file: 'glm/gtx/dual_quaternion.hpp': No such file or directory
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_sdl.cpp
+D:\projects\programming\2DGameEngine\2DGameEngine\libs\imgui\imgui_sdl.cpp(4,11): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  imgui_widgets.cpp
+  Main.cpp
