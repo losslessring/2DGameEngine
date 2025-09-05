@@ -1,6 +1,11 @@
 #include "Game.h"
 #include <iostream>
 #include "../ECS/ECS.h"
+#include "../Components/TransformComponent.h"
+#include "../Components/RigidBodyComponent.h"
+#include "../Components/SpriteComponent.h"
+#include "../Systems/MovementSystem.h"
+#include "../Systems/RenderSystem.h"
 #include <SDL.h>
 #include <glm/glm.hpp>
 #include <SDL_image.h>
@@ -9,6 +14,8 @@
 Game::Game() {
 	isRunning = false;
 	//std::cout << "Game constructor called!" << std::endl;
+	registry = std::make_unique<Registry>();
+	assetStore = std::make_unique<AssetStore>();
 	Logger::Log("Game constructor called!");
 }
 
@@ -89,7 +96,23 @@ void Game::ProcessInput() {
 
 
 void Game::Setup() {
+	registry->AddSystem<MovementSystem>();
+	registry->AddSystem<RenderSystem>();
 
+	assetStore->AddTexture(renderer, "tank-image", "./assets/images/tank-panther-right.png");
+	assetStore->AddTexture(renderer, "truck-image", "./assets/images/truck-ford-right.png");
+
+	Entity tank = registry->CreateEntity();
+	
+	tank.AddComponent<TransformComponent>(glm::vec2(10.0, 30.0), glm::vec2(1.0, 1.0), 0.0);
+	tank.AddComponent<RigidBodyComponent>(glm::vec2(40.0, 0.0));
+	tank.AddComponent<SpriteComponent>("tank-image", 10, 10);
+
+	Entity truck = registry->CreateEntity();
+
+	truck.AddComponent<TransformComponent>(glm::vec2(50.0, 100.0), glm::vec2(1.0, 1.0), 0.0);
+	truck.AddComponent<RigidBodyComponent>(glm::vec2(0.0, 50.0));
+	truck.AddComponent<SpriteComponent>("truck-image", 10, 50);
 }
 
 void Game::Update(int createVariableFlag) {
@@ -99,21 +122,21 @@ void Game::Update(int createVariableFlag) {
 		SDL_Delay(timeToWait);
 	}
 
-	std::cout << "Ticks: " << SDL_GetTicks() << std::endl;
-	std::cout << "Time to wait: " << timeToWait << std::endl;
-	std::cout << "Create variable flag: " << createVariableFlag << std::endl;
+	//std::cout << "Ticks: " << SDL_GetTicks() << std::endl;
+	//std::cout << "Time to wait: " << timeToWait << std::endl;
+	//std::cout << "Create variable flag: " << createVariableFlag << std::endl;
 
-	if (createVariableFlag > 0) {
-		std::string extraVariable = "1000";
-		std::cout << "Extra variable: " << extraVariable << std::endl;
-		int adress = 100;
-		std::cout << "Adress: " << &adress << std::endl;
-	}
-	else {
-		int adress = 100;
-		std::cout << "Adress: " << &adress << std::endl;
+	//if (createVariableFlag > 0) {
+	//	std::string extraVariable = "1000";
+	//	std::cout << "Extra variable: " << extraVariable << std::endl;
+	//	int adress = 100;
+	//	std::cout << "Adress: " << &adress << std::endl;
+	//}
+	//else {
+	//	int adress = 100;
+	//	std::cout << "Adress: " << &adress << std::endl;
 
-	}
+	//}
 
 	
 	
@@ -122,7 +145,10 @@ void Game::Update(int createVariableFlag) {
 	
 	millisecsPreviousFrame = SDL_GetTicks();
 	
-	
+	registry->Update();
+
+	registry->GetSystem<MovementSystem>().Update(deltaTime);
+
 
 }
 
@@ -130,7 +156,7 @@ void Game::Render() {
 	SDL_SetRenderDrawColor(renderer, 21, 21, 21, 255);
 	SDL_RenderClear(renderer);
 
-
+	registry->GetSystem<RenderSystem>().Update(renderer);
 
 	SDL_RenderPresent(renderer);
 
@@ -140,4 +166,5 @@ void Game::Destroy() {
 	SDL_DestroyRenderer(renderer);
 	SDL_DestroyWindow(window);
 	SDL_Quit();
+	
 }
