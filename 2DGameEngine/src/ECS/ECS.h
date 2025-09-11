@@ -52,6 +52,7 @@ class Entity {
 		class Registry* registry;
 };
 
+
 class System {
 	private:
 		Signature componentSignature;
